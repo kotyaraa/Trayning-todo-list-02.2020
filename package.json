@@ -1,0 +1,23 @@
+{
+  "name": "todolist02.2020",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass" : "sass src/css/main.scss dist/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotyaraa/Trayning-todo-list-02.2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kotyaraa/Trayning-todo-list-02.2020/issues"
+  },
+  "homepage": "https://github.com/kotyaraa/Trayning-todo-list-02.2020#readme",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
