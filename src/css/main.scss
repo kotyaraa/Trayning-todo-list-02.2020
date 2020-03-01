@@ -1,9 +1,17 @@
 body{
-    margin: 0;
-    padding:0;
+    background-color:#eee;
+    font-size: 16px;
+    display:flex;
+    justify-content:center;align-items:center;
+    font-famili: Arial, Helvetica, sans-serif;
+
     
+}
+html, body{
+    height: 100%;
 }
 *{
     margin: 0 ;
     padding:0;box-sizing: border-box;
 }
+@import "header"

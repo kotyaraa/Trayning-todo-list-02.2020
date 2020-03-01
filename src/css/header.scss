@@ -1,0 +1,27 @@
+.header{
+    width: 500px;
+    border: 1px solid #ccc;background-color: 1px solid #fff;
+    display:flex;
+    // flex-direction: column;
+    justify-content:center;
+    margin:0 auto;
+    height: 30%;
+    
+     .my-header{
+         flex-direction: column;
+         input{
+             width:-webkit-fill-available;
+         }
+     }
+  .button{
+        display:flex;
+        justify-content: space-around;
+       .addBtn, .doneBtn{
+           flex-direction: column;
+           
+       }
+    }
+
+    }
+
+  
