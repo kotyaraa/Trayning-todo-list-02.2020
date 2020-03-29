@@ -33,19 +33,38 @@
          }
         
      }
+     .divBtn{
+         display:flex;
+         
+     }
+     .BtnRemove, .BtnDone{
+         border-radius: 5px;
+         width: 50px;
+         height: 30px;
+         margin: 5px
+     }
+     li{
+         display:flex;
+         justify-content:space-between;
+         margin:5px;
+            & .active1{
+                textDecoration: line-through;
+
+            }
+            & .active2{
+                display: block;
+            }
+     }
      
-  button{
-        display:flex;
-        justify-content: flex-end;
-       .addBtn, .doneBtn{
-           flex-direction: column;
-           
-       }
+  
        span{
            margin:5px;
        }
     }
+    // li{
+    //     list-style-type: none;
+    // }
   
-    }
+    
 
   

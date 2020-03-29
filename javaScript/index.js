@@ -36,22 +36,30 @@ $myheader.appendChild($ul);
     "click",
     event => {
       const value = $header_inp.value;
-      if(value !== ""){
+      if((value !== "")) {
+
+
+        const $divBtn = document.createElement("div");
+      $divBtn.setAttribute("class", "divBtn");
+       $ul.appendChild($divBtn);
+     
+
         const $BtnRemove = document.createElement("button");
       $BtnRemove.setAttribute("class", "BtnRemove");
       $BtnRemoveBtnTxt1 = document.createTextNode("Remove");
       $BtnRemove.appendChild($BtnRemoveBtnTxt1);
-      
+      $divBtn.appendChild($BtnRemove);
       
       const $BtnDone = document.createElement("button");
       $BtnDone.setAttribute("class", "BtnDone");
       $BtnDoneBtnTxt1 = document.createTextNode("Done");
       $BtnDone.appendChild($BtnDoneBtnTxt1);
-      
+      $divBtn.appendChild($BtnDone);
+
       const $li = document.createElement("li");
       $li.innerHTML = value;
-      $li.appendChild($BtnRemove);
-      $li.appendChild($BtnDone);
+      $li.appendChild($divBtn);
+      // $li.appendChild($BtnDone);
       $ul.appendChild($li);
       $header_inp.value = "";
   
@@ -59,8 +67,9 @@ $myheader.appendChild($ul);
           $li.remove();
       })
       $BtnDone.addEventListener("click", ()=>{
-        $li.style.textDecoration="line-through";
+        $li.style.textDecoration=$li.style.textDecoration ==="line-through"?"none":"line-through";
       })
+      
     }
       },
 
@@ -69,6 +78,7 @@ $myheader.appendChild($ul);
   );
 
   
+
     
   
       
