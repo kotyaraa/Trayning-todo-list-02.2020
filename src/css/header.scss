@@ -1,61 +1,50 @@
-.todo-list{
-    margin-top: 10%;
-    width: 100%;
-    height: 80%;
-    border-bottom: 1px solid black;
-}
+
 .header{
-    width: 500px;
+    width: 100%;
     border: 1px solid blue;
+    border-radius:10px;
     background-color: 1px solid #fff;
     display:flex;
-    // flex-direction: column;
-    justify-content:center;
+    flex-direction: column;
+    align-items:center;
     margin:0 auto;
-    // height: 10%;
     font-size:30px;
-   
+
      .my-header{
          margin:5px;
-         width:100%;
          text-align: center;
-         flex-direction: column;
-
          
+     }
 
-         input{
+         .myInput {
             border-radius: 5px;
-             width: 80%;
-             height: 30px;
+             width: 90%;
+             height: 40px;
          }
-         .buttons{
-            //  margin: 5px;
-             display:flex;
-             justify-content: center;
-             
-         }
-         .header_button,
-         .header_button_done,
-         .removeAllItems,
-         .colorBtn{
-            border-radius: 5px;
+             .todoBtn,
+             .doneBtn,
+             .remove,
+             .chengeColorBtn
+              {
+             border-radius: 5px;
              border: 1px solid blue;
-             height: 30px;
-             width: 40%;
+             height: 20px;
+             width: 5%;
              margin:5px;
          }
-        
-     }
-     .divBtn{
-         display:flex;
-         
-     }
-     .BtnRemove, .BtnDone{
-         border-radius: 5px;
-         width: 50px;
-         height: 30px;
-         margin: 5px
-     }
+        .buttons{
+            margin: 10px;
+        }
+        .BtnRemove,
+        .BtnDone{
+             border-radius: 5px;
+             border: 1px solid blue;
+             width:50px;
+             height: 20px;
+        }
+        .BtnRemove{
+            margin-right: 5px;
+        }
     
      li{
          display:flex;
@@ -63,16 +52,9 @@
          margin:5px;
             
      }
-     
-  
-       span{
-           margin:5px;
-       }
     }
-    // li{
-    //     list-style-type: none;
-    // }
-  
+
+
     
 
   
