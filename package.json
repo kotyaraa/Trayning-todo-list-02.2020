@@ -19,6 +19,6 @@
   "homepage": "https://github.com/kotyaraa/Trayning-todo-list-02.2020#readme",
   "description": "",
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
